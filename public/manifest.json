@@ -1,0 +1,29 @@
+{
+  "short_name": "movemovies",
+  "name": "Move Movies",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo192.png",
+      "32": "logo192.png",
+      "48": "logo192.png",
+      "128": "logo192.png"
+    }
+  },
+  "icons": {
+    "16": "logo192.png",
+    "32": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
